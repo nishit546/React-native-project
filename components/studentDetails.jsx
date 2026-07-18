@@ -1,12 +1,16 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
-
+const student = {
+  name:"Nishit Doshi",
+  Enrollment : "SUK250054CE055",
+  Department : "Computer Engineering"
+}
 const StudentDetails = () => {
   return (
     <View style={styles.card}>
-      <Text>Name : Nishit Doshi</Text>
-      <Text>Enrollment : 23CE001</Text>
-      <Text>Department : Computer Engineering</Text>
+      <Text>{student.name}</Text>
+      <Text>{student.Enrollment}</Text>
+      <Text>{student.Department}</Text>
     </View>
   );
 };

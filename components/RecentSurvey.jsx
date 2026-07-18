@@ -6,7 +6,7 @@ const RecentSurvey = () => {
     <View style={styles.card}>
       <Text style={styles.heading}>Recent Survey</Text>
 
-      <Text>Village : Gandhinagar</Text>
+      <Text>Village : Ahmedabad</Text>
 
       <Text>Date : 17 July 2026</Text>
 
