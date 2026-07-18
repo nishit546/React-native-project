@@ -6,6 +6,7 @@ import StudentDetails from "../../components/studentDetails";
 import SurveyCountCard from "../../components/surveyCountCard";
 import QuickActions from "../../components/QuickActions";
 import RecentSurvey from "../../components/RecentSurvey";
+import CreateSurvey from "../../components/createSurvey";
 
 export default function Dashboard() {
   return (
@@ -16,6 +17,7 @@ export default function Dashboard() {
       <SurveyCountCard />
       <QuickActions />
       <RecentSurvey />
+      <CreateSurvey />
     </ScrollView>
   );
 }
